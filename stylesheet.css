@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(14, 20, 110);
+    color: white;
+    font-family: Roboto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color:rgb(16, 16, 78);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(200, 107, 107);
+    font-size: 1rem;
+}
+
+main hr {
+    border: 0;
+    background: #881f3b;
+    height: 1.2px;
+    margin: 40px 80px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    height: 500px;
+}
+.firstsection > div{
+    width: 40%;
+    margin-top: 1.5rem;
+}
+
+.leftsection{
+    font-size: 3.5rem;
+    /* margin-top: 100px; */
+    text-align: center;
+}
+.leftsection span{
+    color: purple;
+}
+.leftsection .buttons{
+    margin: 50px;
+}
+.leftsection .buttons button {
+    background-color: rgb(83, 15, 58);
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.leftsection .buttons button:hover{
+    background-color: #881f3b;
+}
+.rightsection{
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secondSection {
+    height: 400px;
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection .horizontal-line{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.secondSection .vertical-line{
+    background:white;
+    height: 50px;
+    width: 1.2px;
+}
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -35px;
+    left: -7px;
+}
+.vertical-title {
+    position: relative;
+    top: 35px;
+    width: 120px;
+    font-size: 1.08rem;
+}
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    width: 130px;
+    color: gray;
+}
+
+footer {
+    background: rgba(30, 15, 85, 0.958);
+    height: 140px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .first-foot{
+    margin-top: 20px;
+    font-size: 1.09rem;
+}
+.footer .second-foot{
+    margin-top: 10px;
+}
+.footer .third-foot{
+    margin-top: 10px;
+}
+.footer .fourth-foot{
+    margin-top: 10px;
+}
+.text-center{
+    color: #9c97f1;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.copywright{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copywright h5{
+    margin-left: 5px;
+}
